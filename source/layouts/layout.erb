@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Julian Fields Portfolio" %></title>
+    <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+    <%= stylesheet_link_tag :site %>
+  </head>
+  <body class="<%= page_classes %>">
+    <div class= "menu-link">
+      <a href="#!">
+        <div id="nav-button">
+            <div class="line one"></div>
+            <div class="line two"></div>
+            <div class="line three"></div>
+        </div>
+      </a>
+    </div>
+
+    <div id="main-nav">
+      <ul>
+        <li><%= link_to "Home", "/index.html" %></li>
+        <li><%= link_to "Work", "/work.html" %></li>
+        <li><%= link_to "Photography", "/photography.html" %></li>
+      </ul>
+      <ul>
+      <ul class="social">
+        <li class="social-icon">
+          <a ref="http://instagram.com/juicebox">
+            <span class="fa fa-instagram"></span>
+          </a>
+        </li>
+        <li class="social-icon">
+          <a href="http://github.com/julianfields">
+            <span class="fa fa-github"></span>
+          </a>
+        </li>
+        <li class="social-icon">
+          <a href="mailto:oregonjuice@gmail.com">
+            <span class="fa fa-envelope"></span>
+          </a>
+        </li>
+      </ul>
+      <ul class= "contact">
+        <li>503.544.6827</li>
+        <li>oregonjuice@gmail.com</li>
+    </div>
+
+    <%#<div id="main-header">%>
+      <%#<div class= "logo">%>
+        <%#<img src='images/fields-logo.png'/>%>
+     <%#</div>%>
+    <%#</div>%>
+
+    <div class="site-wrapper">
+      <%= yield %>
+    </div>
+
+    <div class="footer clearfix">
+      <h3>&copy; Copyright 2016 Julian Fields Design</h3>
+    </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <%= javascript_include_tag "all" %>
+  </body>
+</html>

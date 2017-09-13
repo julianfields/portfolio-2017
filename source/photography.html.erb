@@ -1,0 +1,20 @@
+---
+title: Julian Fields Portfolio
+---
+
+<section class="hero clearfix" style="background-image: url('/images/portland-sunrise.png');">
+  <h1>Photography</h1>
+</section>
+<div class="page-wrapper">
+  <section class="image-gallery clearfix">
+    <p> “I use photography to capture unique moments in time.  The beauty of a landscape, a person, or a product.  Sometimes, the extraordinary
+    is impossible to capture through a lens.  You must be in the moment, put down the camera
+    and soak it all in!” </p>
+    <% data.photography.images.each do |image| %>
+      <div class="image-container">
+        <%= image_tag image.name, alt: image.alt %>
+      </div>
+    <% end %>
+  </section>
+</div>
+

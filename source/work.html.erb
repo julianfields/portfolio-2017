@@ -1,0 +1,64 @@
+---
+title: Julian Fields Portfolio
+---
+<section class="design-hero clearfix" style="background-image: url('/images/design-hero.png');">
+  <%#<h1>Design</h1>%>
+</section>
+
+<section class="logos clearfix">
+  <div class="logo-text">
+    <h2> Logos. </h2>
+    <p>
+    I still remember during my freshman year of high school job shadowing the great Portland graphic designer Steve Smith.
+    My path would change directions several sometime but ultimately I was brought back to an early passion of mine.
+    Everywhere I go, I notice signs, typography, and graffiti that shapes our cities.   We live in a designed world, so when creating a logo,
+    I like to think of how a design will look on a hat, a t-shirt, a window, a billboard, or a website.  I aim to capture the essence of a brand and
+    company as well as create a timeless logo.
+    </p>
+  </div>
+  <div class="logo-image">
+    <ul class="clearfix">
+        <% data.photography.work.each do |logo| %>
+          <li>
+            <%= image_tag logo.name, alt: logo.alt %>
+           </li>
+        <% end %>
+    </ul>
+  </div>
+</section>
+
+<section class="ux clearfix">
+  <div class="ux-text">
+    <h2> UX/UI. </h2>
+    <p>
+    I’m capable of using Sketch or Photoshop to create pixel perfect wireframes.  However, with Balsamiq,
+    I can create a quick low fidelity mockup that can focus the discussion on UX and UI challenges without getting
+    hung up on colors and the little details.  These wireframes can quickly be turned into pixel perfect html and CSS
+    prototypes and the project can begin to come to life and take shape.
+
+    </p>
+  </div>
+  <div class="ux-image" style="background-image: url('/images/Frood-screenshot.png');">
+  </div>
+</section>
+
+<section class="dev clearfix">
+  <div class="dev-text">
+    <h2> Development. </h2>
+    <p>
+    My experience in development began with a Middleman blog for an idea I had called <a href= "https://eastwind-search.herokuapp.com"><nobr>Eastwind-Search</nobr></a>.    
+    I then created a site using Middleman for my business Sattwa Chai. It was a three page site, which customer
+    could learn about our history, contact us, as well as a purchase our products through chai-direct.com.
+    We have since sold the company, but my code can be reviewed at <a href= "https://www.github.com/julianfields//sattwa.com"><nobr>Github.com</nobr></a>.
+    <br></br>
+    Over the last several years, I have used used tools like Bootstrap, NPM, Gulp and Grunt, as well as
+    CraftCMS to develop and ship projects.  With a passion for code and people, a steady curiosity for new
+    ways of doing things, and a fearless approach to life, I am always ready to jump into something new.
+    Most recently I was a junior designer/developer on a supply chain application built with Clojure.
+    </p>
+  </div>
+  <div class="dev-image" style="background-image: url('/images/code-2.jpg');">
+  </div>
+</section>
+
+
