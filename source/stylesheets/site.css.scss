@@ -107,6 +107,16 @@ ol {
       transition: all .5s ease;
     }
   }
+  .social a {
+    border-bottom: none;
+  }
+}
+
+.main-nav-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .contact {
@@ -114,23 +124,13 @@ ol {
 
   li {
     color: #fff;
-    top: 250px;
   }
 }
 
 .social {
   position: relative;
-  display: inline-flex;
-  transform: translateX(60%);
-  top: 375px;
-}
-
-.social-icon {
-
-  a {
-    border-bottom: none;
-  }
-
+  display: flex;
+  justify-content: center;
 }
 
 .site-wrapper {
@@ -625,7 +625,11 @@ ol {
   }
 
   .logo-image {
-    width: 100%;
+    max-width: 100%;
+
+    li {
+      height: 120px;
+    }
   }
 
   .dev-text {
