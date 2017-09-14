@@ -87,6 +87,7 @@ ol {
   a {
     display: block;
     padding: 20px;
+    letter-spacing: 1.5px;
     line-height: 1.2em;
     color: #fff;
     text-decoration: none;
@@ -100,6 +101,7 @@ ol {
   }
 
   li {
+    font-family: Robot-condensed;
     position: relative;
     text-align: center;
 
@@ -112,7 +114,7 @@ ol {
   .social a {
     border-bottom: none;
   }
-  
+
   .contact li {
     border-bottom: none;
   }
@@ -130,6 +132,7 @@ ol {
 
   li {
     color: #fff;
+    font-family: Roboto-condensed;
   }
 }
 
@@ -264,8 +267,7 @@ ol {
 
   li {
     display: inline-block;
-    width:300px;
-    padding: 10px;
+    width:auto;
     margin: 50px;
     border: 2px solid #56ff3a;
     border-radius: 3px;
@@ -592,7 +594,6 @@ ol {
 
   .right-side {
     width: 100%;
-    font-size: 16px;
   }
 
   .skills {
@@ -603,6 +604,7 @@ ol {
   }
 
   .hero {
+    background-position: center;
     height: 400px;
 
     h1 {
@@ -620,6 +622,7 @@ ol {
     }
   }
   .design-hero {
+    background-position: center;
     height: 400px;
   }
 
@@ -635,7 +638,7 @@ ol {
 
   .logo-image {
     width: 100%;
-   
+
     ul {
       padding: 0;
     }
