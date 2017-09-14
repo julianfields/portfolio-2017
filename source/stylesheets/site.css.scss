@@ -96,6 +96,7 @@ ol {
 
   ul {
     position: relative;
+    border-bottom: none;
   }
 
   li {
@@ -109,6 +110,10 @@ ol {
   }
 
   .social a {
+    border-bottom: none;
+  }
+  
+  .contact li {
     border-bottom: none;
   }
 }
@@ -624,18 +629,24 @@ ol {
   }
 
   .ux-image {
+    height: 275px;
     width: 100%;
   }
 
   .logo-image {
-    max-width: 100%;
     width: 100%;
+   
+    ul {
+      padding: 0;
+    }
 
     li {
+      padding: 20px;
       width: 50%;
     }
     img {
-      height: 125px;
+      height: 100px;
+      max-width: 100%;
     }
   }
 
@@ -645,6 +656,7 @@ ol {
   }
 
   .dev-image {
+    height: 275px;
     width: 100%;
   }
 
