@@ -72,27 +72,27 @@ ol {
 }
 
 #main-nav {
+  background-color: #5e7783;
   position: fixed;
   height: 100%;
   width: 30%;
   padding-top: 60px;
   top: 0;
   right: 0;
-  background-color: #5e7783;
   overflow: hidden;
-  z-index: 999;
   transform: translate(100%,0);
   transition: all .3s ease;
+  z-index: 999;
 
   a {
+    border-bottom: 1px solid #B3B3B3;
+    color: #fff;
     display: block;
-    padding: 20px;
+    font-size: 30px;
     letter-spacing: 1.5px;
     line-height: 1.2em;
-    color: #fff;
     text-decoration: none;
-    border-bottom: 1px solid #B3B3B3;
-    font-size: 30px;
+    padding: 20px;
   }
 
   ul {
@@ -133,12 +133,13 @@ ol {
   li {
     color: #fff;
     font-family: Roboto-condensed;
+    border-bottom: none;
   }
 }
 
 .social {
-  position: relative;
   display: flex;
+  position: relative;
   justify-content: center;
 }
 
@@ -171,43 +172,42 @@ ol {
 
 .header {
   background-size: cover;
-  position: relative;
   height: 850px;
+  position: relative;
 
   &:before {
+    background-image: radial-gradient(circle,#182e4a,#276073,#46b8cd);
     content: '';
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: radial-gradient(circle,#182e4a,#276073,#46b8cd);
     opacity: .6;
   }
 
   h1 {
+    color: #fff;
+    font-family: "yesteryear", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 6em;
+    font-weight: 400;
     position: relative;
     top: 44%;
     left: 0;
-    transform: translateY(-50%);
     width: 100%;
     margin: 0;
-    font-family: "yesteryear", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 6em;
     text-align: center;
-    color: #fff;
     text-transform: capitalized;
     text-shadow: -2px 2px #000;
+    transform: translateY(-50%);
   }
 
   h2 {
-    position: relative;
+    color: #fff;
     font-family: Roboto-condensed;
     position: relative;
     text-align: center;
     top: 34%;
-    color: #fff;
   }
 }
 
@@ -227,9 +227,9 @@ ol {
 }
 
 .left-side, {
-  height: 535px;
   background-size: 100%;
   background-repeat: no-repeat;
+  height: 535px;
 }
 
 .right-side {
@@ -241,16 +241,16 @@ ol {
 }
 
 .skills {
-  position: relative;
   background: linear-gradient(180deg,#182e4a,#276073);
+  position: relative;
   height: auto;
 
   h2 {
-    text-align: center;
     color: #56FF3A;
     font-family: Roboto-condensed;
     font-size: 48px;
     padding: 30px;
+    text-align: center;
   }
 
   hr {
@@ -260,24 +260,24 @@ ol {
   }
 
   ul {
-    width: auto;
     height: 400px;
+    width: auto;
     text-align: center;
   }
 
   li {
+    border: 2px solid #56ff3a;
+    border-radius: 3px;
     display: inline-block;
     width:auto;
     margin: 50px;
-    border: 2px solid #56ff3a;
-    border-radius: 3px;
   }
 
   h6 {
-    position: relative;
     color: #56FF3A;
     font-size: 20px;
     font-family: Roboto-condensed;
+    position: relative;
     bottom: 20px;
   }
 }
@@ -299,8 +299,8 @@ ol {
 
 .logos {
   position: relative;
-  background: #fff;
   height: auto;
+  background: #fff;
 
   ul {
     text-align: center;
@@ -321,17 +321,17 @@ ol {
 
 .hero {
   background-size: cover;
-  position: relative;
   height: 594px;
+  position: relative;
 
   &:before {
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 100%);
   content: '';
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  position: absolute;
-  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 100%);
   }
 
   img {
@@ -339,51 +339,51 @@ ol {
   }
 
   h1 {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 100%;
-    margin: 0;
+    color: #fff;
     font-family: "yesteryear", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 6em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
     text-align: center;
-    color: #fff;
     text-transform: capitalized;
     text-shadow: -2px 2px #000;
+    transform: translateY(-50%);
+    width: 100%;
   }
 }
 
 .design-hero {
   background-size: cover;
-  position: relative;
   height: 724px;
+  position: relative;
 
   &:before {
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 100%);
   content: '';
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  position: absolute;
-  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0) 100%);
   }
 
   h1 {
+    color: #fff;
+    font-family: "yesteryear", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 6em;
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
     width: 100%;
     margin: 0;
-    font-family: "yesteryear", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 6em;
     text-align: center;
-    color: #fff;
-    text-transform: capitalized;
     text-shadow: -2px 2px #000;
+    text-transform: capitalized;
   }
 }
 
@@ -393,18 +393,18 @@ ol {
 
 .image-gallery {
   position: relative;
-  overflow: hidden;
-  max-width: 950px;
-  width: 100%;
   margin: auto;
+  max-width: 950px;
+  overflow: hidden;
   padding-top: 100px;
   padding-bottom: 100px;
+  width: 100%;
 
   p {
     color: #fff;
+    line-height: 1.4;
     font-size: 28px;
     font-style: roboto-condensed;
-    line-height: 1.4;
     margin-bottom: 150px;
     text-align: center;
   }
@@ -412,15 +412,15 @@ ol {
 
 .image-container {
   float: left;
-  width: 50%;
   overflow: hidden;
+  width: 50%;
 
   img {
     display: block;
     transition: .35s;
     transform: scale(1);
-    max-width: 100%;
     width: 100%;
+    max-width: 100%;
   }
 
   &:hover img {
@@ -428,14 +428,14 @@ ol {
   }
 
   h2 {
+   color: #fff;
+   font-size: 40px;
    position: absolute;
    top: 20%;
    left: 50%;
-   transform: translate(-50%, -50%);
-   color: #fff;
-   font-size: 40px;
-   text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
    text-align: center;
+   text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+   transform: translate(-50%, -50%);
   }
 }
 
@@ -443,12 +443,12 @@ ol {
   background: #000000;
 
   h3 {
-    text-align: center;
-    padding: 50px;
     color: #fff;
     font-family: roboto-condensed;
     font-size: 14px;
     line-height: 1;
+    padding: 50px;
+    text-align: center;
   }
 }
 
@@ -487,9 +487,9 @@ ol {
 }
 
 .ux-image {
-  height: 470px;
   background-size: 100%;
   background-repeat: no-repeat;
+  height: 470px;
 }
 
 .logos {
@@ -543,8 +543,8 @@ ol {
     padding-bottom: 25px;
   }
   a {
-    text-decoration: none;
     color: #65B0C9;
+    text-decoration: none;
   }
 }
 
@@ -556,9 +556,9 @@ ol {
 }
 
 .dev-image {
-  height: 470px;
   background-size: 100%;
   background-repeat: no-repeat;
+  height: 470px;
 }
 
 @media screen and (max-width: 766px) {
@@ -588,8 +588,8 @@ ol {
     background-size: cover;
     border-radius: 50%;
     height: 160px;
-    width: 160px;
     margin-left: 50px;
+    width: 160px;
   }
 
   .right-side {
@@ -617,8 +617,8 @@ ol {
     padding-top: 0;
     p {
       font-size: 18px;
-      padding: 20px;
       margin-bottom: 60px;
+      padding: 20px;
     }
   }
   .design-hero {
@@ -627,8 +627,8 @@ ol {
   }
 
   .ux-text {
-    width: 100%;
     padding-bottom: 50px;
+    width: 100%;
   }
 
   .ux-image {
@@ -648,14 +648,14 @@ ol {
       width: 50%;
     }
     img {
-      height: 100px;
+      height: 80px;
       max-width: 100%;
     }
   }
 
   .dev-text {
-    width: 100%;
     padding-bottom: 50px;
+    width: 100%;
   }
 
   .dev-image {
