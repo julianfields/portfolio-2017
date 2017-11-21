@@ -101,23 +101,18 @@ ol {
   }
 
   li {
-    font-family: Robot-condensed;
-    position: relative;
     text-align: center;
+    transition: all .5s ease;
+  }
+
+  > ul li {
+    font-family: "Roboto condensed";
 
     &:hover {
       background-color: #B6B9BA;
-      transition: all .5s ease;
     }
   }
 
-  .social a {
-    border-bottom: none;
-  }
-
-  .contact li {
-    border-bottom: none;
-  }
 }
 
 .main-nav-bottom {
@@ -132,8 +127,8 @@ ol {
 
   li {
     color: #fff;
-    font-family: Roboto-condensed;
     border-bottom: none;
+    padding-bottom: 5px;
   }
 }
 
@@ -141,6 +136,18 @@ ol {
   display: flex;
   position: relative;
   justify-content: center;
+
+  .social-icon {
+    opacity: .6;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  a {
+    border-bottom: none;
+  }
 }
 
 .site-wrapper {
@@ -563,7 +570,7 @@ ol {
 
 @media screen and (max-width: 766px) {
   #main-nav {
-    width: 50%;
+    width: 100%;
   }
   .header {
     height: 400px;
