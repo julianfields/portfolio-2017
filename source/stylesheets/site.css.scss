@@ -45,6 +45,10 @@ ol {
   width: 90px;
   height: 80px;
   transition: all 0.5s ease-in-out;
+
+    &:hover {
+    opacity: .5;
+  }
 }
 
 
@@ -552,6 +556,10 @@ ol {
   a {
     color: #65B0C9;
     text-decoration: none;
+
+    &:hover {
+      opacity: .8;
+    }
   }
 }
 
